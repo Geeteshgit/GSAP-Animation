@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+ 
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+#homepage{
+    background-image: url(./homepage-img.avif);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    position: relative;
+}
+
+#header{
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Rubik', serif;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5em 0 2.5em 0;
+    text-transform: uppercase;
+    border-bottom: 1px dotted #ffffffb3;
+}
+
+#navbar h1{
+    letter-spacing: 0.5rem;
+}
+
+#navbar ul{
+    display: flex;
+    gap: 2.5em;
+    cursor: pointer;
+}
+
+#hero-content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text{
+    width: 35%;
+    padding: 5em 0 5em 3em;
+}
+
+.hero-text h1{
+    font-size: 5rem;
+    font-family: 'PlayFair Display', serif;
+    font-weight: 500;
+    opacity: 0.95;
+    line-height: 1em;
+}
+
+.hero-text p{
+    margin: 2.5em 0;
+    opacity: 0.90;
+}
+
+.hero-text .hero-button{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.hero-text i{
+    border: 1px solid #fff;
+    border-top-left-radius: 0;
+    font-size: 2rem;
+    padding: 0.25em;
+    border-radius: 50%;
+}
+
+.hero-button h5{
+    font-family: 'Rubik', serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-bottom: 7em;
+    
+}
+
+.social-links h4{
+    transform: rotate(90deg);
+    text-align: left;
+    color: #fff;
+    margin-top: 5em;
+}
+
+.explore{
+    height: 120px;
+    width: 120px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 20%;
+    top: 30%;
+    background-image: url(https://images.unsplash.com/photo-1490814525860-594e82bfd34a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG1vb258ZW58MHx8MHx8fDA%3D);
+    background-position: center;
+}
+
+.explore h3{
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1.75px;
+    opacity: 0.8;
+    text-shadow: 
+    1.5px 1.5px 0px black;
+}
+
+#find-space-page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+}
+
+#find-space-page2{
+    width: 100%;
+    height: 100vh;
+    background-color: #111111b1;
+}
+#find-space-page3{
+    width: 100%;
+    height: 100vh;
+    background-color: #1111117d;
+}
